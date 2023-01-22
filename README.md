@@ -1,2 +1,3 @@
-# admin-dashboard
-Admin dashboard made with HTML and CSS
+# Admin Dashboard
+
+Admin dashboard Project made width HTML and CSS

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/media-queries.css">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,1,200" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+
+  <title>Dashboard</title>
+</head>
+<body>
+  <main class="main-container">
+    
+    <header class="main-header">
+
+      <div class="main-header__container">
+        <div class="logo-container">
+          <h1 class="title--light title--logo">
+            <span class="material-symbols-outlined">
+              dashboard
+            </span>
+            dashboard
+          </h1>
+        </div>
+  
+        <nav class="options">
+  
+          <ul class="options__ul">
+            <li class="txt txt--light options__li">
+              <span class="material-symbols-outlined">
+                home
+              </span>
+              Home
+            </li>
+            <li class="txt txt--light options__li">
+              <span class="material-symbols-outlined">
+                contact_mail
+              </span>
+              Profile
+            </li>
+            <li class="txt txt--light options__li">
+              <span class="material-symbols-outlined">
+                chat
+              </span>
+              Messages
+            </li>
+            <li class="txt txt--light options__li">
+              <span class="material-symbols-outlined">
+                schedule
+              </span>
+              History
+            </li>
+            <li class="txt txt--light options__li">
+              <span class="material-symbols-outlined">
+                task
+              </span>
+              Tasks
+            </li>
+            <li class="txt txt--light options__li">
+              <span class="material-symbols-outlined">
+                groups
+              </span>
+              Communities
+            </li>
+          </ul>
+  
+          <ul class="options__ul">
+            <li class="txt txt--light options__li">
+              <span class="material-symbols-outlined">
+                settings
+              </span>
+              Settings
+            </li>
+            <li class="txt txt--light options__li">
+              <span class="material-symbols-outlined">
+                help_center
+              </span>
+              Support
+            </li>
+            <li class="txt txt--light options__li">
+              <span class="material-symbols-outlined">
+                verified_user
+              </span>
+              Privacy
+            </li>
+          </ul>
+  
+        </nav>
+      </div>
+
+
+    </header>
+
+    <div class="dashboard">
+      <header class="dashboard__header">
+        <div class="dashboard__header-field dashboard__header-field--search">
+          <div class="dashboard__header-searchbar">
+            
+            <span class="material-symbols-outlined"> search </span>
+
+
+            <input type="text" class="txt search-bar">
+          </div>
+
+          <div class="dashboard__header-notifications">
+            <span class="material-symbols-outlined"> notifications </span>
+
+            <div class="profile-pic-container profile-pic-container--small">
+              <!-- <img src="" alt=""> -->
+            </div>
+            <p class="txt txt--bold">Morgan Oakley</p>
+          </div>
+        </div>
+
+        <div class="dashboard__header-field dashboard__header-field--actions">
+          
+          <div class="dashboard__welcome-container">
+            <div class="profile-pic-container profile-pic-container--big"></div>
+            <div class="dashboard__welcome">
+              <p class="txt txt--no-margins">Hi there,</p>
+              <p class="txt txt--bold txt--no-margins">Morgan Oakley (@morgan)</p>
+            </div>
+          </div>
+          
+          <div class="dashboard__header-actions-container">
+            <button class="btn btn--blue">New</button>
+            <button class="btn btn--blue">Upload</button>
+            <button class="btn btn--blue">Share</button>
+          </div>
+        </div>
+
+      </header>
+
+      <div class="dashboard__grids">
+
+        <article class="dashboard__grid-projects-container">
+            <h2 class="txt txt--bold">Projects</h2>
+
+            <div class="dashboard__grid-projects"">
+
+              <div class="card card--project">
+                <div class="card__content">
+                  <h3 class="txt txt--bold card__title">Super Cool Project</h3>
+                  <p class="txt card__text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, accusantium!
+                  </p>
+                </div>
+
+                <div class="card__actions">
+                  <span class="txt material-symbols-outlined"> grade </span>
+                  <span class="txt material-symbols-outlined"> visibility </span>
+                  <span class="txt material-symbols-outlined"> Share </span>
+                </div>
+              </div>
+              <div class="card card--project">
+
+                <div class="card__content">
+                  <h3 class="txt txt--bold card__title">Less Cool Project</h3>
+                  <p class="txt card__text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, accusantium!
+                  </p>
+                </div>
+
+                <div class="card__actions">
+                  <span class="txt material-symbols-outlined"> grade </span>
+                  <span class="txt material-symbols-outlined"> visibility </span>
+                  <span class="txt material-symbols-outlined"> Share </span>
+                </div>
+              </div>
+              <div class="card card--project">
+
+                <div class="card__content">
+                  <h3 class="txt txt--bold card__title">Imposible App</h3>
+                  <p class="txt card__text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, accusantium!
+                  </p>
+                </div>
+
+                <div class="card__actions">
+                  <span class="txt material-symbols-outlined"> grade </span>
+                  <span class="txt material-symbols-outlined"> visibility </span>
+                  <span class="txt material-symbols-outlined"> Share </span>
+                </div>
+              </div>
+              <div class="card card--project">
+
+                <div class="card__content">
+                  <h3 class="txt txt--bold card__title">Ad Blocker</h3>
+                  <p class="txt card__text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, accusantium!
+                  </p>
+                </div>
+
+                <div class="card__actions">
+                  <span class="txt material-symbols-outlined"> grade </span>
+                  <span class="txt material-symbols-outlined"> visibility </span>
+                  <span class="txt material-symbols-outlined"> Share </span>
+                </div>
+              </div>
+              <div class="card card--project">
+
+                <div class="card__content">
+                  <h3 class="txt txt--bold card__title">Money Maker</h3>
+                  <p class="txt card__text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, accusantium!
+                  </p>
+                </div>
+
+                <div class="card__actions">
+                  <span class="txt material-symbols-outlined"> grade </span>
+                  <span class="txt material-symbols-outlined"> visibility </span>
+                  <span class="txt material-symbols-outlined"> Share </span>
+                </div>
+              </div>
+
+            </div>
+
+        </article>
+
+        <article class="dashboard__grid-topics-container">
+
+          <div>
+            <section class="dashboard__grid--announcements-container">
+              <h2 class="txt txt--bold">Announcements</h2>
+            
+              <div class="dashboard__grid-announcements">
+                <div class="card">
+
+                  <div class="card__content card__content--border-bottom">
+                    <h3 class="txt txt--bold card__title">Site Maintenance</h3>
+                    <p class="txt card__text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nemo libero autem id numquam! Distinctio.
+                    </p>
+                  </div>
+
+                  <div class="card__content card__content--border-bottom">
+                    <h3 class="txt txt--bold card__title">Community Share Day</h3>
+                    <p class="txt card__text">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam, sunt!
+                    </p>
+                  </div>
+
+                  <div class="card__content card__content--border-bottom">
+                    <h3 class="txt txt--bold card__title">Updated Privacy Policy</h3>
+                    <p class="txt card__text">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque deserunt, itaque hic molestias reiciendis quis eligendi quidem. At, provident necessitatibus.
+                    </p>
+                  </div>
+
+                </div>
+              </div>
+
+            </section>
+            <section class="dashboard__grid-trending-container">
+              <h2 class="txt txt--bold">Trending</h2>
+            
+              <div class="dashboard__grid-trending">
+                
+                <div class="card">
+
+                  <div class="card__content card__content--profile">
+                    <div class="profile-pic-container profile-pic-container--big"></div>
+                    <div>
+                      <p class="txt">@tengan</p>
+                      <p class="txt">World Peace Builder</p>
+                    </div>
+                  </div>
+
+                  <div class="card__content card__content--profile">
+                    <div class="profile-pic-container profile-pic-container--big"></div>
+                    <div>
+                      <p class="txt">@morgan</p>
+                      <p class="txt">Super Cool Project</p>
+                    </div>
+                  </div>
+
+                  <div class="card__content card__content--profile">
+                    <div class="profile-pic-container profile-pic-container--big "></div>
+                    <div>
+                      <p class="txt">@alex</p>
+                      <p class="txt">No Traffic Maker</p>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </section>
+          </div>
+
+        </article>
+
+      </div>
+    </div>
+  </main>
+</body>
+</html>
